@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "longform-evaluation-model-editing"
+version = "0.1.0"
+description = ""
+authors = ["Domenic Rosati <domenicrosati@gmail.com>"]
+readme = "README.md"
+packages = [{include = "longform_evaluation_model_editing"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
